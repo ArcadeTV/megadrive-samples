@@ -1,0 +1,1 @@
+TOOLS\megalink.exe -cp ROMS\out.md sd:/ld-mmmd_latest.bin
