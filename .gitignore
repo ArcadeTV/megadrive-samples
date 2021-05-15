@@ -1,20 +1,9 @@
 # ignore
-/BIN/*.*
-/BIN/_archive
-/BIN/_archive/*
-!BIN/TILEMAPS/*
-!BIN/TILEDATA/*
-!BIN/PALETTES/*
-/GFX
-/ROMS/*
-!/ROMS/placeholder
 /_tmp/*
 !/_tmp/placeholder
 Listing.txt
 srecfile.txt
 /_archive
-/FONTS
-/SCREENS
 in.md
 out.md
 *.mkv
