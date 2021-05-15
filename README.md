@@ -14,7 +14,7 @@ This repository is intended to be filled with commented code for Mega Drive enth
 
 On Windows/x64 just execute the `build.bat` file that is provided with each example.
 
-There's a [WIKI page](https://github.com/ArcadeTV/megadrive-samples/wiki/waterbackground) for every example.
+There's a [WIKI page](https://github.com/ArcadeTV/megadrive-samples/wiki) for every example.
 
 ---
 
