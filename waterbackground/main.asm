@@ -94,8 +94,6 @@ InfLoop:
 	include	"_includes/vdp_registers.asm"
 	include "_includes/hint.asm"
 	include "_includes/vint.asm"
-	include "_includes/joypad.asm"
-	include "_includes/psg.asm"
 
 	; Subroutines:
 	include "_includes/subroutines/VDP_WriteTMSS.asm"
@@ -103,8 +101,6 @@ InfLoop:
 	include "_includes/subroutines/clearVram.asm"
 	include "_includes/subroutines/clearCram.asm"
 	include "_includes/subroutines/VDP_LoadRegisters.asm"
-	include "_includes/subroutines/set_vram_write.asm"
-	include "_includes/subroutines/scroll_planes.asm"
 
 ;==============================================================
 ; INCLUDE BINARIES
