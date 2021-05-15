@@ -1,1 +1,1 @@
-TOOLS\megalink.exe -cp ROMS\out.md sd:/ld-mmmd_latest.bin
+..\_TOOLS\megalink.exe -cp ROMS\waterbackground.md sd:/waterbackground.bin

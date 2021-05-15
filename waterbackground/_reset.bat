@@ -1,1 +1,1 @@
-TOOLS\megalink.exe -reset
+..\_TOOLS\megalink.exe -reset
