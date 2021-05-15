@@ -25,4 +25,4 @@ This repository is intended to be filled with commented code for Mega Drive enth
 
 ### Thanks _in no particular order_
 
-Matt Philips, Hugues Johnson, Markey Jester, Dustin O'Dell, Infinest, krikzz
+Big Evil Corporation, Hugues Johnson, Markey Jester, Dustin O'Dell, Infinest, SonicRetro, ValleyBell, krikzz
