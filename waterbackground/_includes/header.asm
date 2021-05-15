@@ -71,8 +71,8 @@
 ;==============================================================
 	dc.b "SEGA MEGA DRIVE "                                 ; Console name
 	dc.b "ARCADETV        "                                 ; Copyright holder and release date
-	dc.b "MULTI MENU                                      " ; Domestic name
-	dc.b "MULTI MENU                                      " ; International name
+	dc.b "CODE SAMPLE                                     " ; Domestic name
+	dc.b "CODE SAMPLE                                     " ; International name
 	dc.b "GM XXXXXXXX-XX"                                   ; Version number
 	dc.w $0000                                              ; Checksum
 	dc.b "J               "                                 ; I/O support
