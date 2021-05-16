@@ -141,9 +141,10 @@ Tilemap_Plane_A_End:
 
 
 	even 2
-HSCROLL_DATA:
-	incbin 	"_includes/data/sinus-hscroll.bin"
-HSCROLL_DATA_END:
-
+HSCROLL_DATA:											; The data contains $400 (1024) Bytes 
+	incbin 	"_includes/data/sinus-hscroll.bin"			; with scroll data for planeA and PlaneB (256 words each, one word per line)
+HSCROLL_DATA_END:										; in the format AAAA BBBB
+														; where the word AAAA is for plane A and BBBB is for plane B.
+														; Since plane A is not supposed to scroll, AAAA has all zeros.
 ; The end of ROM
 ROM_End:
