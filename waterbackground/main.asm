@@ -37,7 +37,7 @@ CPU_EntryPoint:
 
 	lea 	(Tiledata),a0										; upload all tiledata to VRAM in one loop
 	SetVRAMWrite vram_addr_tiles								; tell the VDP to write to address $0000
-	move.w  #((TiledataEnd-Tiledata)/size_word)-1,d0 			; set Loop counter
+	move.w  #((TiledataEnd-Tiledata)/size_long)-1,d0 			; set Loop counter
 	Tiles_Lp:							    					; Start of loop
 	move.l  (a0)+,vdp_data										; Write tile line (4 bytes per line), and post-increment address
 	dbra    d0,Tiles_Lp					    					; Decrement d0 and loop until finished (when d0 reaches -1)
