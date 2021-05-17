@@ -1,0 +1,1 @@
+C:\RetroArch\retroarch.exe -L "C:\RetroArch\cores\genesis_plus_gx_libretro.dll" -c "C:\RetroArch\retroarch.cfg" "..\ROMS\whitenoise.md"

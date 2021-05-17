@@ -1,4 +1,5 @@
 # ignore
+/_empty
 /_tmp/*
 !/_tmp/placeholder
 Listing.txt
