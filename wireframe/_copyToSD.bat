@@ -1,0 +1,1 @@
+..\_TOOLS\megalink.exe -cp ROMS\wireframe.md sd:/wireframe.bin
