@@ -1,0 +1,1 @@
+..\_TOOLS\megalink.exe -reset

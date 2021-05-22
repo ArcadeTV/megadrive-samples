@@ -1,0 +1,1 @@
+..\_TOOLS\megalink.exe -cp ROMS\segaconsoles.md sd:/segaconsoles.bin
