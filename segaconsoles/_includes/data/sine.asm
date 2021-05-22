@@ -1,4 +1,6 @@
-Sine:
+sine:
+	dc.w	$0
+	dc.w	$0
 	dc.w	$0
 	dc.w	$0
 	dc.w	$0
@@ -17,6 +19,10 @@ Sine:
 	dc.w	$1
 	dc.w	$1
 	dc.w	$1
+	dc.w	$1
+	dc.w	$1
+	dc.w	$2
+	dc.w	$2
 	dc.w	$2
 	dc.w	$2
 	dc.w	$2
@@ -26,10 +32,13 @@ Sine:
 	dc.w	$3
 	dc.w	$3
 	dc.w	$3
+	dc.w	$3
 	dc.w	$4
 	dc.w	$4
 	dc.w	$4
 	dc.w	$4
+	dc.w	$4
+	dc.w	$5
 	dc.w	$5
 	dc.w	$5
 	dc.w	$5
@@ -39,6 +48,8 @@ Sine:
 	dc.w	$7
 	dc.w	$7
 	dc.w	$7
+	dc.w	$7
+	dc.w	$8
 	dc.w	$8
 	dc.w	$8
 	dc.w	$9
@@ -46,12 +57,15 @@ Sine:
 	dc.w	$9
 	dc.w	$A
 	dc.w	$A
+	dc.w	$A
 	dc.w	$B
 	dc.w	$B
 	dc.w	$C
 	dc.w	$C
+	dc.w	$C
 	dc.w	$D
 	dc.w	$D
+	dc.w	$E
 	dc.w	$E
 	dc.w	$E
 	dc.w	$F
@@ -60,65 +74,82 @@ Sine:
 	dc.w	$10
 	dc.w	$11
 	dc.w	$11
+	dc.w	$11
+	dc.w	$12
 	dc.w	$12
 	dc.w	$13
 	dc.w	$13
 	dc.w	$14
 	dc.w	$14
 	dc.w	$15
+	dc.w	$15
 	dc.w	$16
 	dc.w	$16
 	dc.w	$17
+	dc.w	$17
 	dc.w	$18
-	dc.w	$18
+	dc.w	$19
 	dc.w	$19
 	dc.w	$1A
 	dc.w	$1A
 	dc.w	$1B
+	dc.w	$1B
+	dc.w	$1C
 	dc.w	$1C
 	dc.w	$1D
-	dc.w	$1D
+	dc.w	$1E
 	dc.w	$1E
 	dc.w	$1F
+	dc.w	$1F
 	dc.w	$20
-	dc.w	$20
+	dc.w	$21
 	dc.w	$21
 	dc.w	$22
 	dc.w	$23
+	dc.w	$23
 	dc.w	$24
-	dc.w	$24
+	dc.w	$25
 	dc.w	$25
 	dc.w	$26
 	dc.w	$27
+	dc.w	$27
 	dc.w	$28
 	dc.w	$29
-	dc.w	$2A
+	dc.w	$29
 	dc.w	$2A
 	dc.w	$2B
 	dc.w	$2C
+	dc.w	$2C
 	dc.w	$2D
+	dc.w	$2E
 	dc.w	$2E
 	dc.w	$2F
 	dc.w	$30
+	dc.w	$31
 	dc.w	$31
 	dc.w	$32
 	dc.w	$33
 	dc.w	$34
 	dc.w	$35
+	dc.w	$35
 	dc.w	$36
 	dc.w	$37
 	dc.w	$38
+	dc.w	$39
 	dc.w	$39
 	dc.w	$3A
 	dc.w	$3B
 	dc.w	$3C
 	dc.w	$3D
 	dc.w	$3E
+	dc.w	$3E
 	dc.w	$3F
 	dc.w	$40
 	dc.w	$41
 	dc.w	$42
 	dc.w	$43
+	dc.w	$44
+	dc.w	$45
 	dc.w	$45
 	dc.w	$46
 	dc.w	$47
@@ -126,473 +157,591 @@ Sine:
 	dc.w	$49
 	dc.w	$4A
 	dc.w	$4B
+	dc.w	$4C
 	dc.w	$4D
 	dc.w	$4E
 	dc.w	$4F
 	dc.w	$50
 	dc.w	$51
+	dc.w	$52
 	dc.w	$53
 	dc.w	$54
 	dc.w	$55
 	dc.w	$56
+	dc.w	$57
 	dc.w	$58
 	dc.w	$59
 	dc.w	$5A
 	dc.w	$5B
+	dc.w	$5C
 	dc.w	$5D
 	dc.w	$5E
 	dc.w	$5F
 	dc.w	$60
+	dc.w	$61
 	dc.w	$62
 	dc.w	$63
 	dc.w	$64
+	dc.w	$65
 	dc.w	$66
 	dc.w	$67
 	dc.w	$68
+	dc.w	$69
 	dc.w	$6A
 	dc.w	$6B
 	dc.w	$6D
 	dc.w	$6E
 	dc.w	$6F
+	dc.w	$70
 	dc.w	$71
 	dc.w	$72
+	dc.w	$73
 	dc.w	$74
 	dc.w	$75
-	dc.w	$76
+	dc.w	$77
 	dc.w	$78
 	dc.w	$79
+	dc.w	$7A
 	dc.w	$7B
 	dc.w	$7C
 	dc.w	$7E
 	dc.w	$7F
+	dc.w	$80
 	dc.w	$81
 	dc.w	$82
 	dc.w	$84
 	dc.w	$85
+	dc.w	$86
 	dc.w	$87
 	dc.w	$88
 	dc.w	$8A
 	dc.w	$8B
+	dc.w	$8C
 	dc.w	$8D
 	dc.w	$8E
 	dc.w	$90
 	dc.w	$91
+	dc.w	$92
 	dc.w	$93
-	dc.w	$94
+	dc.w	$95
 	dc.w	$96
+	dc.w	$97
 	dc.w	$98
-	dc.w	$99
+	dc.w	$9A
 	dc.w	$9B
 	dc.w	$9C
 	dc.w	$9E
+	dc.w	$9F
 	dc.w	$A0
-	dc.w	$A1
+	dc.w	$A2
 	dc.w	$A3
 	dc.w	$A4
-	dc.w	$A6
+	dc.w	$A5
+	dc.w	$A7
 	dc.w	$A8
 	dc.w	$A9
 	dc.w	$AB
+	dc.w	$AC
 	dc.w	$AD
-	dc.w	$AE
+	dc.w	$AF
 	dc.w	$B0
-	dc.w	$B2
+	dc.w	$B1
 	dc.w	$B3
-	dc.w	$B5
+	dc.w	$B4
+	dc.w	$B6
 	dc.w	$B7
-	dc.w	$B9
+	dc.w	$B8
 	dc.w	$BA
+	dc.w	$BB
 	dc.w	$BC
 	dc.w	$BE
-	dc.w	$C0
+	dc.w	$BF
 	dc.w	$C1
+	dc.w	$C2
 	dc.w	$C3
 	dc.w	$C5
-	dc.w	$C7
+	dc.w	$C6
 	dc.w	$C8
+	dc.w	$C9
 	dc.w	$CA
 	dc.w	$CC
-	dc.w	$CE
+	dc.w	$CD
 	dc.w	$CF
-	dc.w	$D1
+	dc.w	$D0
+	dc.w	$D2
 	dc.w	$D3
 	dc.w	$D5
+	dc.w	$D6
 	dc.w	$D7
 	dc.w	$D9
 	dc.w	$DA
 	dc.w	$DC
-	dc.w	$DE
+	dc.w	$DD
+	dc.w	$DF
 	dc.w	$E0
 	dc.w	$E2
-	dc.w	$E4
+	dc.w	$E3
 	dc.w	$E5
-	dc.w	$E7
+	dc.w	$E6
+	dc.w	$E8
 	dc.w	$E9
 	dc.w	$EB
-	dc.w	$ED
+	dc.w	$EC
+	dc.w	$EE
 	dc.w	$EF
 	dc.w	$F1
-	dc.w	$F3
+	dc.w	$F2
 	dc.w	$F4
-	dc.w	$F6
+	dc.w	$F5
+	dc.w	$F7
 	dc.w	$F8
 	dc.w	$FA
-	dc.w	$FC
+	dc.w	$FB
+	dc.w	$FD
 	dc.w	$FE
 	dc.w	$100
 	dc.w	$102
-	dc.w	$104
+	dc.w	$103
+	dc.w	$105
 	dc.w	$106
 	dc.w	$108
-	dc.w	$10A
+	dc.w	$109
+	dc.w	$10B
 	dc.w	$10C
 	dc.w	$10E
 	dc.w	$110
-	dc.w	$112
+	dc.w	$111
+	dc.w	$113
 	dc.w	$114
 	dc.w	$116
 	dc.w	$118
-	dc.w	$11A
+	dc.w	$119
+	dc.w	$11B
 	dc.w	$11C
 	dc.w	$11E
 	dc.w	$120
-	dc.w	$122
+	dc.w	$121
+	dc.w	$123
 	dc.w	$124
 	dc.w	$126
 	dc.w	$128
-	dc.w	$12A
+	dc.w	$129
+	dc.w	$12B
 	dc.w	$12C
 	dc.w	$12E
 	dc.w	$130
-	dc.w	$132
-	dc.w	$134
+	dc.w	$131
+	dc.w	$133
+	dc.w	$135
 	dc.w	$136
 	dc.w	$138
 	dc.w	$13A
-	dc.w	$13C
-	dc.w	$13E
+	dc.w	$13B
+	dc.w	$13D
+	dc.w	$13F
 	dc.w	$140
 	dc.w	$142
 	dc.w	$144
-	dc.w	$146
+	dc.w	$145
+	dc.w	$147
 	dc.w	$149
-	dc.w	$14B
-	dc.w	$14D
+	dc.w	$14A
+	dc.w	$14C
+	dc.w	$14E
 	dc.w	$14F
 	dc.w	$151
 	dc.w	$153
-	dc.w	$155
-	dc.w	$157
+	dc.w	$154
+	dc.w	$156
+	dc.w	$158
 	dc.w	$159
 	dc.w	$15B
+	dc.w	$15D
 	dc.w	$15E
 	dc.w	$160
 	dc.w	$162
-	dc.w	$164
-	dc.w	$166
-	dc.w	$168
+	dc.w	$163
+	dc.w	$165
+	dc.w	$167
+	dc.w	$169
 	dc.w	$16A
 	dc.w	$16C
+	dc.w	$16E
 	dc.w	$16F
 	dc.w	$171
 	dc.w	$173
 	dc.w	$175
-	dc.w	$177
-	dc.w	$179
+	dc.w	$176
+	dc.w	$178
+	dc.w	$17A
 	dc.w	$17B
-	dc.w	$17E
-	dc.w	$180
+	dc.w	$17D
+	dc.w	$17F
+	dc.w	$181
 	dc.w	$182
 	dc.w	$184
 	dc.w	$186
 	dc.w	$188
+	dc.w	$189
 	dc.w	$18B
 	dc.w	$18D
 	dc.w	$18F
-	dc.w	$191
-	dc.w	$193
+	dc.w	$190
+	dc.w	$192
+	dc.w	$194
 	dc.w	$196
-	dc.w	$198
-	dc.w	$19A
-	dc.w	$19C
+	dc.w	$197
+	dc.w	$199
+	dc.w	$19B
+	dc.w	$19D
 	dc.w	$19E
 	dc.w	$1A0
-	dc.w	$1A3
+	dc.w	$1A2
+	dc.w	$1A4
 	dc.w	$1A5
 	dc.w	$1A7
 	dc.w	$1A9
 	dc.w	$1AB
+	dc.w	$1AC
 	dc.w	$1AE
 	dc.w	$1B0
 	dc.w	$1B2
-	dc.w	$1B4
+	dc.w	$1B3
+	dc.w	$1B5
 	dc.w	$1B7
 	dc.w	$1B9
 	dc.w	$1BB
-	dc.w	$1BD
-	dc.w	$1BF
+	dc.w	$1BC
+	dc.w	$1BE
+	dc.w	$1C0
 	dc.w	$1C2
-	dc.w	$1C4
-	dc.w	$1C6
-	dc.w	$1C8
+	dc.w	$1C3
+	dc.w	$1C5
+	dc.w	$1C7
+	dc.w	$1C9
 	dc.w	$1CA
-	dc.w	$1CD
-	dc.w	$1CF
-	dc.w	$1D1
+	dc.w	$1CC
+	dc.w	$1CE
+	dc.w	$1D0
+	dc.w	$1D2
 	dc.w	$1D3
-	dc.w	$1D6
-	dc.w	$1D8
-	dc.w	$1DA
+	dc.w	$1D5
+	dc.w	$1D7
+	dc.w	$1D9
+	dc.w	$1DB
 	dc.w	$1DC
-	dc.w	$1DF
-	dc.w	$1E1
+	dc.w	$1DE
+	dc.w	$1E0
+	dc.w	$1E2
 	dc.w	$1E3
 	dc.w	$1E5
 	dc.w	$1E7
-	dc.w	$1EA
+	dc.w	$1E9
+	dc.w	$1EB
 	dc.w	$1EC
 	dc.w	$1EE
 	dc.w	$1F0
+	dc.w	$1F2
 	dc.w	$1F3
 	dc.w	$1F5
 	dc.w	$1F7
 	dc.w	$1F9
+	dc.w	$1FB
 	dc.w	$1FC
 	dc.w	$1FE
 	dc.w	$200
 	dc.w	$202
 	dc.w	$204
+	dc.w	$205
 	dc.w	$207
 	dc.w	$209
 	dc.w	$20B
 	dc.w	$20D
+	dc.w	$20E
 	dc.w	$210
 	dc.w	$212
 	dc.w	$214
-	dc.w	$216
+	dc.w	$215
+	dc.w	$217
 	dc.w	$219
 	dc.w	$21B
 	dc.w	$21D
-	dc.w	$21F
-	dc.w	$221
+	dc.w	$21E
+	dc.w	$220
+	dc.w	$222
 	dc.w	$224
-	dc.w	$226
-	dc.w	$228
-	dc.w	$22A
+	dc.w	$225
+	dc.w	$227
+	dc.w	$229
+	dc.w	$22B
 	dc.w	$22D
-	dc.w	$22F
-	dc.w	$231
-	dc.w	$233
+	dc.w	$22E
+	dc.w	$230
+	dc.w	$232
+	dc.w	$234
 	dc.w	$236
-	dc.w	$238
-	dc.w	$23A
-	dc.w	$23C
+	dc.w	$237
+	dc.w	$239
+	dc.w	$23B
+	dc.w	$23D
 	dc.w	$23E
-	dc.w	$241
-	dc.w	$243
+	dc.w	$240
+	dc.w	$242
+	dc.w	$244
 	dc.w	$245
 	dc.w	$247
 	dc.w	$249
-	dc.w	$24C
+	dc.w	$24B
+	dc.w	$24D
 	dc.w	$24E
 	dc.w	$250
 	dc.w	$252
+	dc.w	$254
 	dc.w	$255
 	dc.w	$257
 	dc.w	$259
 	dc.w	$25B
-	dc.w	$25D
+	dc.w	$25C
+	dc.w	$25E
 	dc.w	$260
 	dc.w	$262
-	dc.w	$264
-	dc.w	$266
-	dc.w	$268
+	dc.w	$263
+	dc.w	$265
+	dc.w	$267
+	dc.w	$269
 	dc.w	$26A
-	dc.w	$26D
-	dc.w	$26F
+	dc.w	$26C
+	dc.w	$26E
+	dc.w	$270
 	dc.w	$271
 	dc.w	$273
 	dc.w	$275
+	dc.w	$277
 	dc.w	$278
 	dc.w	$27A
 	dc.w	$27C
 	dc.w	$27E
-	dc.w	$280
-	dc.w	$282
+	dc.w	$27F
+	dc.w	$281
+	dc.w	$283
 	dc.w	$285
-	dc.w	$287
-	dc.w	$289
+	dc.w	$286
+	dc.w	$288
+	dc.w	$28A
 	dc.w	$28B
 	dc.w	$28D
 	dc.w	$28F
 	dc.w	$291
+	dc.w	$292
 	dc.w	$294
 	dc.w	$296
-	dc.w	$298
-	dc.w	$29A
-	dc.w	$29C
+	dc.w	$297
+	dc.w	$299
+	dc.w	$29B
+	dc.w	$29D
 	dc.w	$29E
 	dc.w	$2A0
 	dc.w	$2A2
+	dc.w	$2A3
 	dc.w	$2A5
 	dc.w	$2A7
-	dc.w	$2A9
-	dc.w	$2AB
+	dc.w	$2A8
+	dc.w	$2AA
+	dc.w	$2AC
 	dc.w	$2AD
 	dc.w	$2AF
 	dc.w	$2B1
-	dc.w	$2B3
-	dc.w	$2B5
+	dc.w	$2B2
+	dc.w	$2B4
+	dc.w	$2B6
 	dc.w	$2B7
-	dc.w	$2BA
+	dc.w	$2B9
+	dc.w	$2BB
 	dc.w	$2BC
 	dc.w	$2BE
 	dc.w	$2C0
-	dc.w	$2C2
-	dc.w	$2C4
+	dc.w	$2C1
+	dc.w	$2C3
+	dc.w	$2C5
 	dc.w	$2C6
 	dc.w	$2C8
 	dc.w	$2CA
-	dc.w	$2CC
-	dc.w	$2CE
+	dc.w	$2CB
+	dc.w	$2CD
+	dc.w	$2CF
 	dc.w	$2D0
 	dc.w	$2D2
 	dc.w	$2D4
-	dc.w	$2D6
+	dc.w	$2D5
+	dc.w	$2D7
 	dc.w	$2D8
 	dc.w	$2DA
 	dc.w	$2DC
-	dc.w	$2DE
+	dc.w	$2DD
+	dc.w	$2DF
 	dc.w	$2E0
 	dc.w	$2E2
 	dc.w	$2E4
-	dc.w	$2E6
+	dc.w	$2E5
+	dc.w	$2E7
 	dc.w	$2E8
 	dc.w	$2EA
 	dc.w	$2EC
-	dc.w	$2EE
+	dc.w	$2ED
+	dc.w	$2EF
 	dc.w	$2F0
 	dc.w	$2F2
 	dc.w	$2F4
-	dc.w	$2F6
+	dc.w	$2F5
+	dc.w	$2F7
 	dc.w	$2F8
 	dc.w	$2FA
-	dc.w	$2FC
+	dc.w	$2FB
+	dc.w	$2FD
 	dc.w	$2FE
 	dc.w	$300
 	dc.w	$302
-	dc.w	$304
+	dc.w	$303
+	dc.w	$305
 	dc.w	$306
 	dc.w	$308
-	dc.w	$30A
+	dc.w	$309
+	dc.w	$30B
 	dc.w	$30C
-	dc.w	$30D
+	dc.w	$30E
 	dc.w	$30F
 	dc.w	$311
-	dc.w	$313
+	dc.w	$312
+	dc.w	$314
 	dc.w	$315
 	dc.w	$317
-	dc.w	$319
+	dc.w	$318
+	dc.w	$31A
 	dc.w	$31B
-	dc.w	$31C
+	dc.w	$31D
 	dc.w	$31E
 	dc.w	$320
-	dc.w	$322
+	dc.w	$321
+	dc.w	$323
 	dc.w	$324
 	dc.w	$326
 	dc.w	$327
 	dc.w	$329
+	dc.w	$32A
 	dc.w	$32B
 	dc.w	$32D
-	dc.w	$32F
+	dc.w	$32E
+	dc.w	$330
 	dc.w	$331
-	dc.w	$332
+	dc.w	$333
 	dc.w	$334
 	dc.w	$336
+	dc.w	$337
 	dc.w	$338
-	dc.w	$339
+	dc.w	$33A
 	dc.w	$33B
 	dc.w	$33D
+	dc.w	$33E
 	dc.w	$33F
-	dc.w	$340
+	dc.w	$341
 	dc.w	$342
 	dc.w	$344
+	dc.w	$345
 	dc.w	$346
-	dc.w	$347
+	dc.w	$348
 	dc.w	$349
-	dc.w	$34B
+	dc.w	$34A
+	dc.w	$34C
 	dc.w	$34D
-	dc.w	$34E
+	dc.w	$34F
 	dc.w	$350
-	dc.w	$352
+	dc.w	$351
 	dc.w	$353
+	dc.w	$354
 	dc.w	$355
 	dc.w	$357
 	dc.w	$358
-	dc.w	$35A
+	dc.w	$359
+	dc.w	$35B
 	dc.w	$35C
 	dc.w	$35D
-	dc.w	$35F
+	dc.w	$35E
 	dc.w	$360
+	dc.w	$361
 	dc.w	$362
 	dc.w	$364
 	dc.w	$365
-	dc.w	$367
+	dc.w	$366
 	dc.w	$368
+	dc.w	$369
 	dc.w	$36A
-	dc.w	$36C
+	dc.w	$36B
 	dc.w	$36D
+	dc.w	$36E
 	dc.w	$36F
 	dc.w	$370
 	dc.w	$372
 	dc.w	$373
+	dc.w	$374
 	dc.w	$375
 	dc.w	$376
 	dc.w	$378
 	dc.w	$379
+	dc.w	$37A
 	dc.w	$37B
 	dc.w	$37C
 	dc.w	$37E
 	dc.w	$37F
+	dc.w	$380
 	dc.w	$381
 	dc.w	$382
 	dc.w	$384
 	dc.w	$385
+	dc.w	$386
 	dc.w	$387
 	dc.w	$388
-	dc.w	$38A
+	dc.w	$389
 	dc.w	$38B
 	dc.w	$38C
+	dc.w	$38D
 	dc.w	$38E
 	dc.w	$38F
+	dc.w	$390
 	dc.w	$391
 	dc.w	$392
 	dc.w	$393
 	dc.w	$395
 	dc.w	$396
+	dc.w	$397
 	dc.w	$398
 	dc.w	$399
 	dc.w	$39A
+	dc.w	$39B
 	dc.w	$39C
 	dc.w	$39D
 	dc.w	$39E
+	dc.w	$39F
 	dc.w	$3A0
 	dc.w	$3A1
 	dc.w	$3A2
 	dc.w	$3A3
+	dc.w	$3A4
 	dc.w	$3A5
 	dc.w	$3A6
 	dc.w	$3A7
 	dc.w	$3A8
+	dc.w	$3A9
 	dc.w	$3AA
 	dc.w	$3AB
 	dc.w	$3AC
 	dc.w	$3AD
+	dc.w	$3AE
 	dc.w	$3AF
 	dc.w	$3B0
 	dc.w	$3B1
 	dc.w	$3B2
 	dc.w	$3B3
+	dc.w	$3B4
 	dc.w	$3B5
 	dc.w	$3B6
 	dc.w	$3B7
@@ -600,65 +749,82 @@ Sine:
 	dc.w	$3B9
 	dc.w	$3BA
 	dc.w	$3BB
+	dc.w	$3BB
+	dc.w	$3BC
 	dc.w	$3BD
 	dc.w	$3BE
 	dc.w	$3BF
 	dc.w	$3C0
 	dc.w	$3C1
 	dc.w	$3C2
+	dc.w	$3C2
 	dc.w	$3C3
 	dc.w	$3C4
 	dc.w	$3C5
 	dc.w	$3C6
 	dc.w	$3C7
+	dc.w	$3C7
 	dc.w	$3C8
 	dc.w	$3C9
 	dc.w	$3CA
+	dc.w	$3CB
 	dc.w	$3CB
 	dc.w	$3CC
 	dc.w	$3CD
 	dc.w	$3CE
 	dc.w	$3CF
+	dc.w	$3CF
 	dc.w	$3D0
 	dc.w	$3D1
 	dc.w	$3D2
+	dc.w	$3D2
 	dc.w	$3D3
+	dc.w	$3D4
 	dc.w	$3D4
 	dc.w	$3D5
 	dc.w	$3D6
-	dc.w	$3D6
+	dc.w	$3D7
 	dc.w	$3D7
 	dc.w	$3D8
 	dc.w	$3D9
+	dc.w	$3D9
 	dc.w	$3DA
 	dc.w	$3DB
+	dc.w	$3DB
 	dc.w	$3DC
-	dc.w	$3DC
+	dc.w	$3DD
 	dc.w	$3DD
 	dc.w	$3DE
 	dc.w	$3DF
-	dc.w	$3E0
+	dc.w	$3DF
 	dc.w	$3E0
 	dc.w	$3E1
+	dc.w	$3E1
+	dc.w	$3E2
 	dc.w	$3E2
 	dc.w	$3E3
-	dc.w	$3E3
 	dc.w	$3E4
+	dc.w	$3E4
+	dc.w	$3E5
 	dc.w	$3E5
 	dc.w	$3E6
 	dc.w	$3E6
 	dc.w	$3E7
+	dc.w	$3E7
 	dc.w	$3E8
-	dc.w	$3E8
+	dc.w	$3E9
 	dc.w	$3E9
 	dc.w	$3EA
 	dc.w	$3EA
+	dc.w	$3EB
 	dc.w	$3EB
 	dc.w	$3EC
 	dc.w	$3EC
 	dc.w	$3ED
 	dc.w	$3ED
 	dc.w	$3EE
+	dc.w	$3EE
+	dc.w	$3EF
 	dc.w	$3EF
 	dc.w	$3EF
 	dc.w	$3F0
@@ -667,12 +833,15 @@ Sine:
 	dc.w	$3F1
 	dc.w	$3F2
 	dc.w	$3F2
+	dc.w	$3F2
 	dc.w	$3F3
 	dc.w	$3F3
 	dc.w	$3F4
 	dc.w	$3F4
+	dc.w	$3F4
 	dc.w	$3F5
 	dc.w	$3F5
+	dc.w	$3F6
 	dc.w	$3F6
 	dc.w	$3F6
 	dc.w	$3F7
@@ -680,6 +849,8 @@ Sine:
 	dc.w	$3F7
 	dc.w	$3F8
 	dc.w	$3F8
+	dc.w	$3F8
+	dc.w	$3F9
 	dc.w	$3F9
 	dc.w	$3F9
 	dc.w	$3F9
@@ -689,6 +860,8 @@ Sine:
 	dc.w	$3FB
 	dc.w	$3FB
 	dc.w	$3FB
+	dc.w	$3FB
+	dc.w	$3FC
 	dc.w	$3FC
 	dc.w	$3FC
 	dc.w	$3FC
@@ -697,11 +870,14 @@ Sine:
 	dc.w	$3FD
 	dc.w	$3FD
 	dc.w	$3FD
+	dc.w	$3FD
 	dc.w	$3FE
 	dc.w	$3FE
 	dc.w	$3FE
 	dc.w	$3FE
 	dc.w	$3FE
+	dc.w	$3FE
+	dc.w	$3FE
 	dc.w	$3FF
 	dc.w	$3FF
 	dc.w	$3FF
@@ -709,6 +885,12 @@ Sine:
 	dc.w	$3FF
 	dc.w	$3FF
 	dc.w	$3FF
+	dc.w	$3FF
+	dc.w	$3FF
+	dc.w	$400
+	dc.w	$400
+	dc.w	$400
+	dc.w	$400
 	dc.w	$400
 	dc.w	$400
 	dc.w	$400
@@ -738,6 +920,10 @@ Sine:
 	dc.w	$3FF
 	dc.w	$3FF
 	dc.w	$3FF
+	dc.w	$3FF
+	dc.w	$3FF
+	dc.w	$3FE
+	dc.w	$3FE
 	dc.w	$3FE
 	dc.w	$3FE
 	dc.w	$3FE
@@ -747,10 +933,13 @@ Sine:
 	dc.w	$3FD
 	dc.w	$3FD
 	dc.w	$3FD
+	dc.w	$3FD
 	dc.w	$3FC
 	dc.w	$3FC
 	dc.w	$3FC
 	dc.w	$3FC
+	dc.w	$3FC
+	dc.w	$3FB
 	dc.w	$3FB
 	dc.w	$3FB
 	dc.w	$3FB
@@ -760,6 +949,8 @@ Sine:
 	dc.w	$3F9
 	dc.w	$3F9
 	dc.w	$3F9
+	dc.w	$3F9
+	dc.w	$3F8
 	dc.w	$3F8
 	dc.w	$3F8
 	dc.w	$3F7
@@ -767,12 +958,15 @@ Sine:
 	dc.w	$3F7
 	dc.w	$3F6
 	dc.w	$3F6
+	dc.w	$3F6
 	dc.w	$3F5
 	dc.w	$3F5
 	dc.w	$3F4
 	dc.w	$3F4
+	dc.w	$3F4
 	dc.w	$3F3
 	dc.w	$3F3
+	dc.w	$3F2
 	dc.w	$3F2
 	dc.w	$3F2
 	dc.w	$3F1
@@ -781,65 +975,82 @@ Sine:
 	dc.w	$3F0
 	dc.w	$3EF
 	dc.w	$3EF
+	dc.w	$3EF
+	dc.w	$3EE
 	dc.w	$3EE
 	dc.w	$3ED
 	dc.w	$3ED
 	dc.w	$3EC
 	dc.w	$3EC
 	dc.w	$3EB
+	dc.w	$3EB
 	dc.w	$3EA
 	dc.w	$3EA
 	dc.w	$3E9
+	dc.w	$3E9
 	dc.w	$3E8
-	dc.w	$3E8
+	dc.w	$3E7
 	dc.w	$3E7
 	dc.w	$3E6
 	dc.w	$3E6
 	dc.w	$3E5
+	dc.w	$3E5
+	dc.w	$3E4
 	dc.w	$3E4
 	dc.w	$3E3
-	dc.w	$3E3
+	dc.w	$3E2
 	dc.w	$3E2
 	dc.w	$3E1
+	dc.w	$3E1
 	dc.w	$3E0
-	dc.w	$3E0
+	dc.w	$3DF
 	dc.w	$3DF
 	dc.w	$3DE
 	dc.w	$3DD
+	dc.w	$3DD
 	dc.w	$3DC
-	dc.w	$3DC
+	dc.w	$3DB
 	dc.w	$3DB
 	dc.w	$3DA
 	dc.w	$3D9
+	dc.w	$3D9
 	dc.w	$3D8
 	dc.w	$3D7
-	dc.w	$3D6
+	dc.w	$3D7
 	dc.w	$3D6
 	dc.w	$3D5
 	dc.w	$3D4
+	dc.w	$3D4
 	dc.w	$3D3
+	dc.w	$3D2
 	dc.w	$3D2
 	dc.w	$3D1
 	dc.w	$3D0
+	dc.w	$3CF
 	dc.w	$3CF
 	dc.w	$3CE
 	dc.w	$3CD
 	dc.w	$3CC
 	dc.w	$3CB
+	dc.w	$3CB
 	dc.w	$3CA
 	dc.w	$3C9
 	dc.w	$3C8
+	dc.w	$3C7
 	dc.w	$3C7
 	dc.w	$3C6
 	dc.w	$3C5
 	dc.w	$3C4
 	dc.w	$3C3
 	dc.w	$3C2
+	dc.w	$3C2
 	dc.w	$3C1
 	dc.w	$3C0
 	dc.w	$3BF
 	dc.w	$3BE
 	dc.w	$3BD
+	dc.w	$3BC
+	dc.w	$3BB
 	dc.w	$3BB
 	dc.w	$3BA
 	dc.w	$3B9
@@ -847,473 +1058,591 @@ Sine:
 	dc.w	$3B7
 	dc.w	$3B6
 	dc.w	$3B5
+	dc.w	$3B4
 	dc.w	$3B3
 	dc.w	$3B2
 	dc.w	$3B1
 	dc.w	$3B0
 	dc.w	$3AF
+	dc.w	$3AE
 	dc.w	$3AD
 	dc.w	$3AC
 	dc.w	$3AB
 	dc.w	$3AA
+	dc.w	$3A9
 	dc.w	$3A8
 	dc.w	$3A7
 	dc.w	$3A6
 	dc.w	$3A5
+	dc.w	$3A4
 	dc.w	$3A3
 	dc.w	$3A2
 	dc.w	$3A1
 	dc.w	$3A0
+	dc.w	$39F
 	dc.w	$39E
 	dc.w	$39D
 	dc.w	$39C
+	dc.w	$39B
 	dc.w	$39A
 	dc.w	$399
 	dc.w	$398
+	dc.w	$397
 	dc.w	$396
 	dc.w	$395
 	dc.w	$393
 	dc.w	$392
 	dc.w	$391
+	dc.w	$390
 	dc.w	$38F
 	dc.w	$38E
+	dc.w	$38D
 	dc.w	$38C
 	dc.w	$38B
-	dc.w	$38A
+	dc.w	$389
 	dc.w	$388
 	dc.w	$387
+	dc.w	$386
 	dc.w	$385
 	dc.w	$384
 	dc.w	$382
 	dc.w	$381
+	dc.w	$380
 	dc.w	$37F
 	dc.w	$37E
 	dc.w	$37C
 	dc.w	$37B
+	dc.w	$37A
 	dc.w	$379
 	dc.w	$378
 	dc.w	$376
 	dc.w	$375
+	dc.w	$374
 	dc.w	$373
 	dc.w	$372
 	dc.w	$370
 	dc.w	$36F
+	dc.w	$36E
 	dc.w	$36D
-	dc.w	$36C
+	dc.w	$36B
 	dc.w	$36A
+	dc.w	$369
 	dc.w	$368
-	dc.w	$367
+	dc.w	$366
 	dc.w	$365
 	dc.w	$364
 	dc.w	$362
+	dc.w	$361
 	dc.w	$360
-	dc.w	$35F
+	dc.w	$35E
 	dc.w	$35D
 	dc.w	$35C
-	dc.w	$35A
+	dc.w	$35B
+	dc.w	$359
 	dc.w	$358
 	dc.w	$357
 	dc.w	$355
+	dc.w	$354
 	dc.w	$353
-	dc.w	$352
+	dc.w	$351
 	dc.w	$350
-	dc.w	$34E
+	dc.w	$34F
 	dc.w	$34D
-	dc.w	$34B
+	dc.w	$34C
+	dc.w	$34A
 	dc.w	$349
-	dc.w	$347
+	dc.w	$348
 	dc.w	$346
+	dc.w	$345
 	dc.w	$344
 	dc.w	$342
-	dc.w	$340
+	dc.w	$341
 	dc.w	$33F
+	dc.w	$33E
 	dc.w	$33D
 	dc.w	$33B
-	dc.w	$339
+	dc.w	$33A
 	dc.w	$338
+	dc.w	$337
 	dc.w	$336
 	dc.w	$334
-	dc.w	$332
+	dc.w	$333
 	dc.w	$331
-	dc.w	$32F
+	dc.w	$330
+	dc.w	$32E
 	dc.w	$32D
 	dc.w	$32B
+	dc.w	$32A
 	dc.w	$329
 	dc.w	$327
 	dc.w	$326
 	dc.w	$324
-	dc.w	$322
+	dc.w	$323
+	dc.w	$321
 	dc.w	$320
 	dc.w	$31E
-	dc.w	$31C
+	dc.w	$31D
 	dc.w	$31B
-	dc.w	$319
+	dc.w	$31A
+	dc.w	$318
 	dc.w	$317
 	dc.w	$315
-	dc.w	$313
+	dc.w	$314
+	dc.w	$312
 	dc.w	$311
 	dc.w	$30F
-	dc.w	$30D
+	dc.w	$30E
 	dc.w	$30C
-	dc.w	$30A
+	dc.w	$30B
+	dc.w	$309
 	dc.w	$308
 	dc.w	$306
-	dc.w	$304
+	dc.w	$305
+	dc.w	$303
 	dc.w	$302
 	dc.w	$300
 	dc.w	$2FE
-	dc.w	$2FC
+	dc.w	$2FD
+	dc.w	$2FB
 	dc.w	$2FA
 	dc.w	$2F8
-	dc.w	$2F6
+	dc.w	$2F7
+	dc.w	$2F5
 	dc.w	$2F4
 	dc.w	$2F2
 	dc.w	$2F0
-	dc.w	$2EE
+	dc.w	$2EF
+	dc.w	$2ED
 	dc.w	$2EC
 	dc.w	$2EA
 	dc.w	$2E8
-	dc.w	$2E6
+	dc.w	$2E7
+	dc.w	$2E5
 	dc.w	$2E4
 	dc.w	$2E2
 	dc.w	$2E0
-	dc.w	$2DE
+	dc.w	$2DF
+	dc.w	$2DD
 	dc.w	$2DC
 	dc.w	$2DA
 	dc.w	$2D8
-	dc.w	$2D6
+	dc.w	$2D7
+	dc.w	$2D5
 	dc.w	$2D4
 	dc.w	$2D2
 	dc.w	$2D0
-	dc.w	$2CE
-	dc.w	$2CC
+	dc.w	$2CF
+	dc.w	$2CD
+	dc.w	$2CB
 	dc.w	$2CA
 	dc.w	$2C8
 	dc.w	$2C6
-	dc.w	$2C4
-	dc.w	$2C2
+	dc.w	$2C5
+	dc.w	$2C3
+	dc.w	$2C1
 	dc.w	$2C0
 	dc.w	$2BE
 	dc.w	$2BC
-	dc.w	$2BA
+	dc.w	$2BB
+	dc.w	$2B9
 	dc.w	$2B7
-	dc.w	$2B5
-	dc.w	$2B3
+	dc.w	$2B6
+	dc.w	$2B4
+	dc.w	$2B2
 	dc.w	$2B1
 	dc.w	$2AF
 	dc.w	$2AD
-	dc.w	$2AB
-	dc.w	$2A9
+	dc.w	$2AC
+	dc.w	$2AA
+	dc.w	$2A8
 	dc.w	$2A7
 	dc.w	$2A5
+	dc.w	$2A3
 	dc.w	$2A2
 	dc.w	$2A0
 	dc.w	$29E
-	dc.w	$29C
-	dc.w	$29A
-	dc.w	$298
+	dc.w	$29D
+	dc.w	$29B
+	dc.w	$299
+	dc.w	$297
 	dc.w	$296
 	dc.w	$294
+	dc.w	$292
 	dc.w	$291
 	dc.w	$28F
 	dc.w	$28D
 	dc.w	$28B
-	dc.w	$289
-	dc.w	$287
+	dc.w	$28A
+	dc.w	$288
+	dc.w	$286
 	dc.w	$285
-	dc.w	$282
-	dc.w	$280
+	dc.w	$283
+	dc.w	$281
+	dc.w	$27F
 	dc.w	$27E
 	dc.w	$27C
 	dc.w	$27A
 	dc.w	$278
+	dc.w	$277
 	dc.w	$275
 	dc.w	$273
 	dc.w	$271
-	dc.w	$26F
-	dc.w	$26D
+	dc.w	$270
+	dc.w	$26E
+	dc.w	$26C
 	dc.w	$26A
-	dc.w	$268
-	dc.w	$266
-	dc.w	$264
+	dc.w	$269
+	dc.w	$267
+	dc.w	$265
+	dc.w	$263
 	dc.w	$262
 	dc.w	$260
-	dc.w	$25D
+	dc.w	$25E
+	dc.w	$25C
 	dc.w	$25B
 	dc.w	$259
 	dc.w	$257
 	dc.w	$255
+	dc.w	$254
 	dc.w	$252
 	dc.w	$250
 	dc.w	$24E
-	dc.w	$24C
+	dc.w	$24D
+	dc.w	$24B
 	dc.w	$249
 	dc.w	$247
 	dc.w	$245
-	dc.w	$243
-	dc.w	$241
+	dc.w	$244
+	dc.w	$242
+	dc.w	$240
 	dc.w	$23E
-	dc.w	$23C
-	dc.w	$23A
-	dc.w	$238
+	dc.w	$23D
+	dc.w	$23B
+	dc.w	$239
+	dc.w	$237
 	dc.w	$236
-	dc.w	$233
-	dc.w	$231
-	dc.w	$22F
+	dc.w	$234
+	dc.w	$232
+	dc.w	$230
+	dc.w	$22E
 	dc.w	$22D
-	dc.w	$22A
-	dc.w	$228
-	dc.w	$226
+	dc.w	$22B
+	dc.w	$229
+	dc.w	$227
+	dc.w	$225
 	dc.w	$224
-	dc.w	$221
-	dc.w	$21F
+	dc.w	$222
+	dc.w	$220
+	dc.w	$21E
 	dc.w	$21D
 	dc.w	$21B
 	dc.w	$219
-	dc.w	$216
+	dc.w	$217
+	dc.w	$215
 	dc.w	$214
 	dc.w	$212
 	dc.w	$210
+	dc.w	$20E
 	dc.w	$20D
 	dc.w	$20B
 	dc.w	$209
 	dc.w	$207
+	dc.w	$205
 	dc.w	$204
 	dc.w	$202
 	dc.w	$200
 	dc.w	$1FE
 	dc.w	$1FC
+	dc.w	$1FB
 	dc.w	$1F9
 	dc.w	$1F7
 	dc.w	$1F5
 	dc.w	$1F3
+	dc.w	$1F2
 	dc.w	$1F0
 	dc.w	$1EE
 	dc.w	$1EC
-	dc.w	$1EA
+	dc.w	$1EB
+	dc.w	$1E9
 	dc.w	$1E7
 	dc.w	$1E5
 	dc.w	$1E3
-	dc.w	$1E1
-	dc.w	$1DF
+	dc.w	$1E2
+	dc.w	$1E0
+	dc.w	$1DE
 	dc.w	$1DC
-	dc.w	$1DA
-	dc.w	$1D8
-	dc.w	$1D6
+	dc.w	$1DB
+	dc.w	$1D9
+	dc.w	$1D7
+	dc.w	$1D5
 	dc.w	$1D3
-	dc.w	$1D1
-	dc.w	$1CF
-	dc.w	$1CD
+	dc.w	$1D2
+	dc.w	$1D0
+	dc.w	$1CE
+	dc.w	$1CC
 	dc.w	$1CA
-	dc.w	$1C8
-	dc.w	$1C6
-	dc.w	$1C4
+	dc.w	$1C9
+	dc.w	$1C7
+	dc.w	$1C5
+	dc.w	$1C3
 	dc.w	$1C2
-	dc.w	$1BF
-	dc.w	$1BD
+	dc.w	$1C0
+	dc.w	$1BE
+	dc.w	$1BC
 	dc.w	$1BB
 	dc.w	$1B9
 	dc.w	$1B7
-	dc.w	$1B4
+	dc.w	$1B5
+	dc.w	$1B3
 	dc.w	$1B2
 	dc.w	$1B0
 	dc.w	$1AE
+	dc.w	$1AC
 	dc.w	$1AB
 	dc.w	$1A9
 	dc.w	$1A7
 	dc.w	$1A5
-	dc.w	$1A3
+	dc.w	$1A4
+	dc.w	$1A2
 	dc.w	$1A0
 	dc.w	$19E
-	dc.w	$19C
-	dc.w	$19A
-	dc.w	$198
+	dc.w	$19D
+	dc.w	$19B
+	dc.w	$199
+	dc.w	$197
 	dc.w	$196
-	dc.w	$193
-	dc.w	$191
+	dc.w	$194
+	dc.w	$192
+	dc.w	$190
 	dc.w	$18F
 	dc.w	$18D
 	dc.w	$18B
+	dc.w	$189
 	dc.w	$188
 	dc.w	$186
 	dc.w	$184
 	dc.w	$182
-	dc.w	$180
-	dc.w	$17E
+	dc.w	$181
+	dc.w	$17F
+	dc.w	$17D
 	dc.w	$17B
-	dc.w	$179
-	dc.w	$177
+	dc.w	$17A
+	dc.w	$178
+	dc.w	$176
 	dc.w	$175
 	dc.w	$173
 	dc.w	$171
 	dc.w	$16F
+	dc.w	$16E
 	dc.w	$16C
 	dc.w	$16A
-	dc.w	$168
-	dc.w	$166
-	dc.w	$164
+	dc.w	$169
+	dc.w	$167
+	dc.w	$165
+	dc.w	$163
 	dc.w	$162
 	dc.w	$160
 	dc.w	$15E
+	dc.w	$15D
 	dc.w	$15B
 	dc.w	$159
-	dc.w	$157
-	dc.w	$155
+	dc.w	$158
+	dc.w	$156
+	dc.w	$154
 	dc.w	$153
 	dc.w	$151
 	dc.w	$14F
-	dc.w	$14D
-	dc.w	$14B
+	dc.w	$14E
+	dc.w	$14C
+	dc.w	$14A
 	dc.w	$149
-	dc.w	$146
+	dc.w	$147
+	dc.w	$145
 	dc.w	$144
 	dc.w	$142
 	dc.w	$140
-	dc.w	$13E
-	dc.w	$13C
+	dc.w	$13F
+	dc.w	$13D
+	dc.w	$13B
 	dc.w	$13A
 	dc.w	$138
 	dc.w	$136
-	dc.w	$134
-	dc.w	$132
+	dc.w	$135
+	dc.w	$133
+	dc.w	$131
 	dc.w	$130
 	dc.w	$12E
 	dc.w	$12C
-	dc.w	$12A
+	dc.w	$12B
+	dc.w	$129
 	dc.w	$128
 	dc.w	$126
 	dc.w	$124
-	dc.w	$122
+	dc.w	$123
+	dc.w	$121
 	dc.w	$120
 	dc.w	$11E
 	dc.w	$11C
-	dc.w	$11A
+	dc.w	$11B
+	dc.w	$119
 	dc.w	$118
 	dc.w	$116
 	dc.w	$114
-	dc.w	$112
+	dc.w	$113
+	dc.w	$111
 	dc.w	$110
 	dc.w	$10E
 	dc.w	$10C
-	dc.w	$10A
+	dc.w	$10B
+	dc.w	$109
 	dc.w	$108
 	dc.w	$106
-	dc.w	$104
+	dc.w	$105
+	dc.w	$103
 	dc.w	$102
 	dc.w	$100
 	dc.w	$FE
-	dc.w	$FC
+	dc.w	$FD
+	dc.w	$FB
 	dc.w	$FA
 	dc.w	$F8
-	dc.w	$F6
+	dc.w	$F7
+	dc.w	$F5
 	dc.w	$F4
-	dc.w	$F3
+	dc.w	$F2
 	dc.w	$F1
 	dc.w	$EF
-	dc.w	$ED
+	dc.w	$EE
+	dc.w	$EC
 	dc.w	$EB
 	dc.w	$E9
-	dc.w	$E7
+	dc.w	$E8
+	dc.w	$E6
 	dc.w	$E5
-	dc.w	$E4
+	dc.w	$E3
 	dc.w	$E2
 	dc.w	$E0
-	dc.w	$DE
+	dc.w	$DF
+	dc.w	$DD
 	dc.w	$DC
 	dc.w	$DA
 	dc.w	$D9
 	dc.w	$D7
+	dc.w	$D6
 	dc.w	$D5
 	dc.w	$D3
-	dc.w	$D1
+	dc.w	$D2
+	dc.w	$D0
 	dc.w	$CF
-	dc.w	$CE
+	dc.w	$CD
 	dc.w	$CC
 	dc.w	$CA
+	dc.w	$C9
 	dc.w	$C8
-	dc.w	$C7
+	dc.w	$C6
 	dc.w	$C5
 	dc.w	$C3
+	dc.w	$C2
 	dc.w	$C1
-	dc.w	$C0
+	dc.w	$BF
 	dc.w	$BE
 	dc.w	$BC
+	dc.w	$BB
 	dc.w	$BA
-	dc.w	$B9
+	dc.w	$B8
 	dc.w	$B7
-	dc.w	$B5
+	dc.w	$B6
+	dc.w	$B4
 	dc.w	$B3
-	dc.w	$B2
+	dc.w	$B1
 	dc.w	$B0
-	dc.w	$AE
+	dc.w	$AF
 	dc.w	$AD
+	dc.w	$AC
 	dc.w	$AB
 	dc.w	$A9
 	dc.w	$A8
-	dc.w	$A6
+	dc.w	$A7
+	dc.w	$A5
 	dc.w	$A4
 	dc.w	$A3
-	dc.w	$A1
+	dc.w	$A2
 	dc.w	$A0
+	dc.w	$9F
 	dc.w	$9E
 	dc.w	$9C
 	dc.w	$9B
-	dc.w	$99
+	dc.w	$9A
 	dc.w	$98
+	dc.w	$97
 	dc.w	$96
-	dc.w	$94
+	dc.w	$95
 	dc.w	$93
+	dc.w	$92
 	dc.w	$91
 	dc.w	$90
 	dc.w	$8E
 	dc.w	$8D
+	dc.w	$8C
 	dc.w	$8B
 	dc.w	$8A
 	dc.w	$88
 	dc.w	$87
+	dc.w	$86
 	dc.w	$85
 	dc.w	$84
 	dc.w	$82
 	dc.w	$81
+	dc.w	$80
 	dc.w	$7F
 	dc.w	$7E
 	dc.w	$7C
 	dc.w	$7B
+	dc.w	$7A
 	dc.w	$79
 	dc.w	$78
-	dc.w	$76
+	dc.w	$77
 	dc.w	$75
 	dc.w	$74
+	dc.w	$73
 	dc.w	$72
 	dc.w	$71
+	dc.w	$70
 	dc.w	$6F
 	dc.w	$6E
 	dc.w	$6D
 	dc.w	$6B
 	dc.w	$6A
+	dc.w	$69
 	dc.w	$68
 	dc.w	$67
 	dc.w	$66
+	dc.w	$65
 	dc.w	$64
 	dc.w	$63
 	dc.w	$62
+	dc.w	$61
 	dc.w	$60
 	dc.w	$5F
 	dc.w	$5E
 	dc.w	$5D
+	dc.w	$5C
 	dc.w	$5B
 	dc.w	$5A
 	dc.w	$59
 	dc.w	$58
+	dc.w	$57
 	dc.w	$56
 	dc.w	$55
 	dc.w	$54
 	dc.w	$53
+	dc.w	$52
 	dc.w	$51
 	dc.w	$50
 	dc.w	$4F
 	dc.w	$4E
 	dc.w	$4D
+	dc.w	$4C
 	dc.w	$4B
 	dc.w	$4A
 	dc.w	$49
@@ -1321,65 +1650,82 @@ Sine:
 	dc.w	$47
 	dc.w	$46
 	dc.w	$45
+	dc.w	$45
+	dc.w	$44
 	dc.w	$43
 	dc.w	$42
 	dc.w	$41
 	dc.w	$40
 	dc.w	$3F
 	dc.w	$3E
+	dc.w	$3E
 	dc.w	$3D
 	dc.w	$3C
 	dc.w	$3B
 	dc.w	$3A
 	dc.w	$39
+	dc.w	$39
 	dc.w	$38
 	dc.w	$37
 	dc.w	$36
+	dc.w	$35
 	dc.w	$35
 	dc.w	$34
 	dc.w	$33
 	dc.w	$32
 	dc.w	$31
+	dc.w	$31
 	dc.w	$30
 	dc.w	$2F
 	dc.w	$2E
+	dc.w	$2E
 	dc.w	$2D
+	dc.w	$2C
 	dc.w	$2C
 	dc.w	$2B
 	dc.w	$2A
-	dc.w	$2A
+	dc.w	$29
 	dc.w	$29
 	dc.w	$28
 	dc.w	$27
+	dc.w	$27
 	dc.w	$26
 	dc.w	$25
+	dc.w	$25
 	dc.w	$24
-	dc.w	$24
+	dc.w	$23
 	dc.w	$23
 	dc.w	$22
 	dc.w	$21
-	dc.w	$20
+	dc.w	$21
 	dc.w	$20
 	dc.w	$1F
+	dc.w	$1F
+	dc.w	$1E
 	dc.w	$1E
 	dc.w	$1D
-	dc.w	$1D
 	dc.w	$1C
+	dc.w	$1C
+	dc.w	$1B
 	dc.w	$1B
 	dc.w	$1A
 	dc.w	$1A
 	dc.w	$19
+	dc.w	$19
 	dc.w	$18
-	dc.w	$18
+	dc.w	$17
 	dc.w	$17
 	dc.w	$16
 	dc.w	$16
+	dc.w	$15
 	dc.w	$15
 	dc.w	$14
 	dc.w	$14
 	dc.w	$13
 	dc.w	$13
 	dc.w	$12
+	dc.w	$12
+	dc.w	$11
 	dc.w	$11
 	dc.w	$11
 	dc.w	$10
@@ -1388,12 +1734,15 @@ Sine:
 	dc.w	$F
 	dc.w	$E
 	dc.w	$E
+	dc.w	$E
 	dc.w	$D
 	dc.w	$D
 	dc.w	$C
 	dc.w	$C
+	dc.w	$C
 	dc.w	$B
 	dc.w	$B
+	dc.w	$A
 	dc.w	$A
 	dc.w	$A
 	dc.w	$9
@@ -1401,6 +1750,8 @@ Sine:
 	dc.w	$9
 	dc.w	$8
 	dc.w	$8
+	dc.w	$8
+	dc.w	$7
 	dc.w	$7
 	dc.w	$7
 	dc.w	$7
@@ -1410,6 +1761,8 @@ Sine:
 	dc.w	$5
 	dc.w	$5
 	dc.w	$5
+	dc.w	$5
+	dc.w	$4
 	dc.w	$4
 	dc.w	$4
 	dc.w	$4
@@ -1418,11 +1771,14 @@ Sine:
 	dc.w	$3
 	dc.w	$3
 	dc.w	$3
+	dc.w	$3
 	dc.w	$2
 	dc.w	$2
 	dc.w	$2
 	dc.w	$2
 	dc.w	$2
+	dc.w	$2
+	dc.w	$2
 	dc.w	$1
 	dc.w	$1
 	dc.w	$1
@@ -1430,6 +1786,8 @@ Sine:
 	dc.w	$1
 	dc.w	$1
 	dc.w	$1
+	dc.w	$1
+	dc.w	$1
 	dc.w	$0
 	dc.w	$0
 	dc.w	$0
@@ -1441,4 +1799,6 @@ Sine:
 	dc.w	$0
 	dc.w	$0
 	dc.w	$0
-SineEnd:
+	dc.w	$0
+	dc.w	$0
+sineEnd:

@@ -79,7 +79,7 @@ CPU_EntryPoint:
 ; Enter Main Loop
 ;==============================================================
 
-	move.w 	#(1442/4),(RAM_PLANE_B_SCROLL_X).l 					; set initial value
+	move.w 	#(1800/4),(RAM_PLANE_B_SCROLL_X).l 					; set initial value
 	move.w 	#0,(RAM_PLANE_B_SCROLL_Y).l 						; set initial value
 
 InfLoop:
@@ -103,7 +103,7 @@ InfLoop:
 	SetVSRAMWrite 	$0000+size_word								; tell the VDP to write to VSCROLL TABLE of PLANE B at $0002
 	move.w 	d1,vdp_data											; write the word to the VDP data port
 
-	cmpi.w 	#1440,d5											; Have we reached the last index?
+	cmpi.w 	#1800,d5											; Have we reached the last index?
 	bne.s 	DontResetXindex										; if not, go increment the index
 	move.w 	#0,d5												; otherwise reset to #0
 	bra.s 	XindexWasResetted									; and skip incrementation
@@ -111,7 +111,7 @@ DontResetXindex:
 	add.w 	#1,d5 												; increment by 1
 XindexWasResetted:
 
-	cmpi.w 	#1440,d6 											; Have we reached the last index?
+	cmpi.w 	#1800,d6 											; Have we reached the last index?
 	bne.s 	DontResetYindex										; if not, go increment the index
 	move.w 	#0,d6												; otherwise reset to #0
 	bra.s 	YindexWasResetted									; and skip incrementation
